@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leader-borad-practice</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        body{background-color:#e4e4e4;
+        }
+        .container{
+            margin-bottom: 30px;
+        }
+        .logo{
+            width: 40px;
+        }
+        .idea{
+            display: inline;
+            margin-left: 5px;
+        }
+        .main-part{
+           max-width: 770px;
+            height: 600px;
+            background-color: #FFFFFF;
+            border-radius: 5px;
+            padding-top: 15px;
+        }
+        .top-player h3{
+            color: #562EFF;
+        }
+        .player img{
+            width: 55px;
+        }
+        .margin{
+            border: 1px solid #D1D1D1;
+        }
+     .row .blog{
+        width: 177px;
+     }
+     .small{
+        font-size: 15px;
+        color:#562EFF;
+     }
+    .container .nd-part{
+        padding-bottom:20px;
+        margin-bottom: 20px;
+     }
+     .final{
+        max-width: 780px;
+            height: 400px;
+            background-color: #FFFFFF;
+            border-radius: 5px;
+            padding-top: 15px;
+     }
+     .final h3{
+        color: #562EFF;
+     }
+     .final p{
+        font-size: 15px;
+        color: #ED6B4F;
+     }
+     .card{
+        padding-top: 8px;
+        border: none;
+        box-shadow: 3px 3px 3px rgb(224, 211, 211);
+     }
+     #size{
+        width: 200px;
+        margin: auto;
+     }
+     .card-footer img{
+        width: 10px;
+        margin-left: 3px;
+     }
+     .card-footer{
+        background-color: white;
+        border: none;
+     }
+     #gray{
+        filter: grayscale(50%);
+        opacity: 0.4;
+        color: gray;
+     }
+     .card-footer  .foot{
+        display: inline;
+     }
+    .back{
+        display: inline;
+        background-color: #FEE5DF;
+        border-radius: 10px;
+        padding: 4px;
+       
+    }
+
+     .card-footer .foot{
+        font-size:10px ;
+     }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="ml-5">
+                <a class="navbar-brand" href="#">
+                    <img class="logo" src="images/icons/logo.png" alt="">
+                    <h4 class="idea">Idea</h4>
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active mr-3">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active mr-3">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item active mr-3">
+                  <a class="nav-link" href="#">Works</a>
+                </li>
+                <li class="nav-item active mr-5">
+                    <img class="logo" src="images/players/player-1.png" alt="">
+                  </li>
+              </ul>
+             
+            </div>
+          </nav>
+    </div>
+    
+    <div class="container main-part mx-auto">
+       <section class="container-fluid top-player">
+        <h3>Top player</h3>
+        <div class="row">
+            <div class="col-md-4 col-sm-6 player p-3 d-flex align-items-center">
+                <img src="images/players/player-2.png" alt="">
+                <p class="pl-3">player-1</p>
+            </div>
+            <div class="col-md-4 col-sm-6 player p-3 d-flex align-items-center">
+                <img src="images/players/player-3.png" alt="">
+                <p class="pl-3">player-2</p>
+            </div>
+            <div class="col-md-4 col-sm-6 player p-3 d-flex align-items-center">
+                <img src="images/players/player-4.png" alt="">
+                <p class="pl-3">player-3</p>
+            </div>
+       
+            <div class="col-md-4 col-sm-6 player p-3 d-flex align-items-center">
+                <img src="images/players/player-5.png" alt="">
+                <p class="pl-3">player-1</p>
+            </div>
+            <div class="col-md-4 col-sm-6 player p-3 d-flex align-items-center">
+                <img src="images/players/player-6.png" alt="">
+                <p class="pl-3">player-2</p>
+            </div>
+            <div class="col-md-4 col-sm-6 player  d-flex align-items-center">
+                <img src="images/players/player-1.png" alt="">
+                <p class="pl-3">player-3</p>
+            </div>
+        </div>
+
+        <div class="margin"></div>
+
+
+
+        <section class="nd-part">
+            <h3>Top Blog</h3>
+        <div class="row">
+           
+            <div class="col-md-6 col-sm-4 player p-3 d-flex align-items-center">
+                <img class="blog" src="images/blogs/blog-1.png" alt="">
+                <h6 class="pl-3">13 of My Favorite
+                    UI/UX Goodies
+                   <p class="pl-1 small">player-1</p>
+                </h6>
+                
+            </div>
+            <div class="col-md-6 col-sm-4 player p-3 d-flex align-items-center">
+                <img class="blog" src="images/blogs/blog-2.png" alt="">
+                <h6 class="pl-3">13 of My Favorite
+                    UI/UX Goodies
+                    <p class="pl-1 small" >player-1</p>
+                </h6>
+                
+            </div>
+            <div class="col-md-6 col-sm-4 player p-3 d-flex align-items-center">
+                <img class="blog" src="images/blogs/blog-3.png" alt="">
+                <h6 class="pl-3">13 of My Favorite
+                    UI/UX Goodies
+                    <p class="pl-1 small">player-1</p>
+                </h6>
+            </div>
+       
+            <div class="col-md-6 col-sm-12 player p-3 d-flex align-items-center">
+                <img class="blog" src="images/blogs/blog-4.png" alt="">
+                <h6 class="pl-3">13 of My Favorite
+                    UI/UX Goodies
+                    <p class="pl-1 small">player-1</p>
+                </h6>
+                
+            </div>
+           
+           
+        </div>
+        </section>
+
+       </section>
+
+    </div>
+
+
+       
+    <div class="container final">
+        <h3>Letes course</h3>
+        <div class="last-part">
+            <div class="card-deck">
+                <div class="card col-md-4 col-sm-12">
+                  <img class="card-img-top" id="size" src="images/courses/course-1.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h6 class="card-title">The Complete JavaScript </h6>
+                    <h6 class="card-title">Course 2024 </h6>
+                    <p class="card-text">Reed Krakoff</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted ">
+                        <img src="images/icons/star.png" alt="">
+                        <img src="images/icons/star.png" alt="">
+                        <img src="images/icons/star.png" alt="">
+                        <img src="images/icons/star.png" alt="">
+                        <img id="gray" src="images/icons/star.png" alt="">
+                        <p class="foot">4.5</p>
+                       
+                        <div class="back">
+                            <img src="images/icons/clock.png" alt="">
+     
+                            <p class="foot">01.20 hr</p>
+                         </div>
+                        
+                    </small>
+                  </div>
+                </div>
+                <div class="card col-md-4 col-sm-12">
+                    <img class="card-img-top" id="size" src="images/courses/course-3.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h6 class="card-title">The Complete JavaScript </h6>
+                    <h6 class="card-title">Course 2024 </h6>
+                    <p class="card-text">Reed Krakoff</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">
+                        <img src="images/icons/star.png" alt="">
+                        <img src="images/icons/star.png" alt="">
+                        <img src="images/icons/star.png" alt="">
+                        <img src="images/icons/star.png" alt="">
+                        <img id="gray" src="images/icons/star.png" alt="">
+                        <p class="foot">4.5</p>
+                       
+                        <div class="back">
+                           <img src="images/icons/clock.png" alt="">
+     
+                           <p class="foot">01.20 hr</p>
+                        </div>
+                        
+                    </small>
+                  </div>
+                </div>
+                <div class="card col-md-4 col-sm-12">
+                  <img class="card-img-top" id="size" src="images/courses/course-2.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h6 class="card-title">The Complete JavaScript </h6>
+                    <h6 class="card-title">Course 2024 </h6>
+                    <p class="card-text">Reed Krakoff</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">
+                        <img src="images/icons/star.png" alt="">
+                        <img src="images/icons/star.png" alt="">
+                        <img src="images/icons/star.png" alt="">
+                        <img src="images/icons/star.png" alt="">
+                        <img id="gray" src="images/icons/star.png" alt="">
+                        <p class="foot">4.5</p>
+                       
+                            <div class="back">
+                                <img src="images/icons/clock.png" alt="">
+     
+                            <p class="foot">01.20 hr</p>
+                            </div>
+                        
+                    </small>
+                  </div>
+                </div>
+              </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
